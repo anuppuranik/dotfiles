@@ -19,4 +19,15 @@ set smartcase                " dont ignore case when searching all caps
 set hlsearch                 " Highlight searches
 set incsearch                " Highlight as you type
 
+" Manage tabs the way I want
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smarttab
+
 " When editing a file, always jump to the last known cursor position
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
