@@ -17,6 +17,7 @@ symlnk .aliases
 symlnk .exports
 symlnk .bash_prompt
 symlnk .path
+symlnk .gitconfig
 
 
 # Create symlinks to Sublime Text settings
