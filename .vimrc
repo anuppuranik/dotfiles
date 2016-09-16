@@ -7,7 +7,7 @@ if !has('win32')
 endif
 
 set list                     " show whitespace characters
-set listchars=tab:>-,trail:- " show tabs and trailing whitespace
+" set listchars=tab:>-,trail:- " show tabs and trailing whitespace
 
 set showcmd                  " show command in bottom bar
 set number                   " Enable line numbers
