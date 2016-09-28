@@ -5,9 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Calculate",
 		"Darkula Color Scheme",
+		"Delete Current File",
+		"FileDiffs",
 		"IndentX",
 		"Package Control",
-		"Text Pastry"
+		"SFTP",
+		"Text Pastry",
+		"Trimmer"
 	]
 }
