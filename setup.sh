@@ -30,6 +30,8 @@ fi
 if [[ $(uname -s) == "Darwin" ]]; then
     # I am on mac
     SUBLIME_USER_DIR=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+elif [[ $(uname -s) == "Linux" ]]; then
+    SUBLIME_USER_DIR=~/.config/sublime-text-3/Packages/User
 fi
 
 for file in $DOTFILES_DIR/sublime/* ; do
