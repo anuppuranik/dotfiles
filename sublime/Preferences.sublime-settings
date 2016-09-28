@@ -1,7 +1,13 @@
 {
+	"always_show_minimap_viewport": true,
 	"color_scheme": "Packages/Darkula Color Scheme/darkula.tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "Consolas",
+    "font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"show_line_endings": true,
+	"translate_tabs_to_spaces": true
 }
