@@ -1,4 +1,5 @@
-# Anup Puranik's dotfiles
+# Anup Puranik's dotfiles 
+
 ## Getting started
 ```bash
 cd ~
@@ -14,3 +15,4 @@ https://github.com/mathiasbynens/dotfiles
 
 Thanks
 
+## *This repo has been moved into a private one - so effectively obsolete!*
